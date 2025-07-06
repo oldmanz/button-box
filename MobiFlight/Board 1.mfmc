@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Nano</ModuleType>
+  <ModuleName>Board 1</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Output Name="DIR_LED" Pin="14" />
+  <Output Name="MENU_LED" Pin="15" />
+  <Output Name="CLR_LED" Pin="16" />
+  <Output Name="ENT_LED" Pin="17" />
+  <Button Name="Encoder" Pin="6" />
+  <Encoder Name="Outer" PinLeft="3" PinRight="2" EncoderType="0" />
+  <Encoder Name="Inner" PinLeft="5" PinRight="4" EncoderType="0" />
+</Config>

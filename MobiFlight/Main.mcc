@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="07de92b8-3a18-407c-8100-a428dd2b49d2">
+      <active>true</active>
+      <description>COM1 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="if($=0,1,if($=100,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="COM1_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7925eb07-e43d-426c-ba1a-e65d4e049831">
+      <active>true</active>
+      <description>NAV1 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="102" />
+        <modifiers>
+          <transformation active="True" expression="if($=2,1,if($=102,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="NAV1_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fa8a9f92-adf6-4482-aa10-cc48ea3c4450">
+      <active>true</active>
+      <description>NAV2 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="102" />
+        <modifiers>
+          <transformation active="True" expression="if($=3,1,if($=103,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="NAV2_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d39ec0dc-87c9-4c29-834f-7a4b8d420478">
+      <active>true</active>
+      <description>FMS1 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="102" />
+        <modifiers>
+          <transformation active="True" expression="if($=4,1,if($=104,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="FMS1_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d666f52e-a179-4b0c-9a86-505ccf17ae3e">
+      <active>true</active>
+      <description>FMS2 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="102" />
+        <modifiers>
+          <transformation active="True" expression="if($=5,1,if($=105,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="FMS2_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="768f2d9f-76fa-4d0d-836c-6499188161ca">
+      <active>true</active>
+      <description>AP LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="102" />
+        <modifiers>
+          <transformation active="True" expression="if($=6,1,if($=106,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="AP_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b6a07037-8e45-4687-84b4-0dfa58138397">
+      <active>true</active>
+      <description>XPDR LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="102" />
+        <modifiers>
+          <transformation active="True" expression="if($=7,1,if($=107,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="XPDR_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="04c15b0f-dc83-4916-9bc2-ad63dd40c7c0">
+      <active>true</active>
+      <description>COM2 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="string" varName="MODE" varExpression="$" />
+        <test type="Float" value="2" />
+        <modifiers>
+          <transformation active="True" expression="if($=1,1,if($=101,1,0))" />
+        </modifiers>
+        <display type="Output" serial="Board 2/ SN-90B-A20" trigger="normal" pin="COM2_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="693b212f-3b41-40a3-b4a8-d7984394e701">
+      <active>true</active>
+      <description>SHIFT LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="Variable" varType="number" varName="MODE" varExpression="$" />
+        <test type="Float" value="100" />
+        <modifiers>
+          <transformation active="True" expression="if($&gt;=100, 1,0)" />
+        </modifiers>
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="SWAP_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4f5fec7a-4c2e-4157-8933-01e3bb89c93e">
+      <active>true</active>
+      <description>AP_MASTER LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT MASTER,Bool)" UUID="59411677-275b-4f69-82d2-eb93c20db76c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="AP_MASTER_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="14b30d99-8942-4158-aa4d-91756d652760">
+      <active>true</active>
+      <description>HDG LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT HEADING LOCK,Bool)" UUID="4eb2a124-0af9-45c5-a665-00b94bc0c207" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="HDG_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b1869792-91f4-46cf-bd5a-e44f8094b326">
+      <active>true</active>
+      <description>NAV LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT NAV1 LOCK,Bool)" UUID="4224fc05-b6e9-44d4-9468-c546a05a99c4" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="NAV_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e33bdc30-3be0-40fe-a8cb-5fc8a973f08c">
+      <active>true</active>
+      <description>APR LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT APPROACH HOLD,Bool)" UUID="d7187230-2fd2-41a7-b22e-55e3e8a0ec12" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="APR_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6159e05a-37a9-42e3-9e54-324799c1d633">
+      <active>true</active>
+      <description>ALT LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT ALTITUDE LOCK,Bool)" UUID="09df7de7-01e4-43ac-8015-9573385d8acb" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="ALT_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2e80e79f-1089-46cd-b58b-8fc8851c5f93">
+      <active>true</active>
+      <description>VS LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT VERTICAL HOLD,Bool)" UUID="3c5c84e5-a499-4a07-8d0c-f812004f60fe" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Board 3/ SN-267-7D2" trigger="normal" pin="VS_LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="03b3a972-6efa-4642-931a-ff177ed6d429">
+      <active>true</active>
+      <description>COM1 Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="COM1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=0,100,0)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bba8463f-4083-48e9-bf79-61d9c105a5aa">
+      <active>true</active>
+      <description>NAV1 Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="NAV1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=2,102,2)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9872c420-46fe-4b24-9faf-d36b63021e1e">
+      <active>true</active>
+      <description>NAV2 Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="NAV2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=3,103,3)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="81213ee1-de94-4562-ae8e-cb37b2ce339c">
+      <active>true</active>
+      <description>COM2 Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="COM2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=1,101,1)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="79604b72-c631-4fc8-ab33-5efd26c3cfcf">
+      <active>true</active>
+      <description>COM1 Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:COM_RADIO_FRACT_DEC)" presetId="04725cc3-7346-4f5d-ad89-c1ffaaa6e978" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:COM_RADIO_FRACT_INC)" presetId="6b78a3e2-e3dc-411b-bb2d-224b011a2644" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a6d9099b-a674-462a-8556-a7b0261560a0">
+      <active>true</active>
+      <description>HDG Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_HEADING_PFD_Dec)" presetId="c61b3434-b6c2-40fc-9fb1-0d0eed37f763" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_HEADING_PFD_Inc)" presetId="a7d9c58c-0612-4dbc-a427-f7330499dc24" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="100" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8c8f4476-36d7-4561-bc80-7ff8a940ac2f">
+      <active>true</active>
+      <description>COM2 Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:COM2_RADIO_FRACT_DEC)" presetId="de76b2e3-c555-499f-a2fd-f3c5d3461c68" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:COM2_RADIO_FRACT_INC)" presetId="0f6c89b5-398e-4d88-9332-f2c855d7690b" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="768088ea-80c2-41f9-8e3c-e7f0302408fc">
+      <active>true</active>
+      <description>COM2 Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:COM2_RADIO_WHOLE_DEC)" presetId="9e748e8d-2ee3-47fc-9253-dac2452f8cbe" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:COM2_RADIO_WHOLE_INC)" presetId="d749b8a9-7fdd-4f7d-91b4-3b0eeac53ced" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="066ee94d-c515-4261-836b-3a140a19a9c2">
+      <active>true</active>
+      <description>COM1 Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:COM_RADIO_WHOLE_DEC)" presetId="ec154767-41ce-4a2f-865b-3e6fe7c90c89" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:COM_RADIO_WHOLE_INC)" presetId="e1a79c8b-2e4a-49b2-9284-d1cf0adc5707" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="&lt;=" value="0" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a7175f10-8b29-41ea-af08-4fed18687a97">
+      <active>true</active>
+      <description>NAV1 Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:NAV1_RADIO_WHOLE_DEC)" presetId="bcb45f55-c67a-44b9-a951-096e450ccec7" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:NAV1_RADIO_WHOLE_INC)" presetId="1ae481bc-bea6-4f58-a683-01c9d0c38e32" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="2" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="48d6a9fd-d40a-4d4c-b5f1-403e71270547">
+      <active>true</active>
+      <description>XPDR Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(A:TRANSPONDER CODE:1, number) s0 100 div sp2 &#xA;l0 100 % -- s1 10 % 9 == if{  l1 2 - } els{  l1 }&#xA;0 max 77 min l2 100 * + (&gt;L:mfXPNDR, Number)&#xA;(L:mfXPNDR, BCO16) (&gt;K:XPNDR_SET)  " presetId="532d1911-b67f-4069-b119-73f982997f1c" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(A:TRANSPONDER CODE:1, number) s0 100 div sp2 &#xA;l0 100 % ++ s1 10 % 8 == if{  l1 2 + } els{  l1 }&#xA;0 max 77 min l2 100 * + (&gt;L:mfXPNDR, Number)&#xA;(L:mfXPNDR, BCO16) (&gt;K:XPNDR_SET)  " presetId="57e10ecc-ad84-4a81-878e-102a9a5838c8" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="7" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b36ea959-b974-4c0f-b0b1-64bc2c064b47">
+      <active>true</active>
+      <description>XPDR Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(A:TRANSPONDER CODE:1, Number) 100 / int 10 % 0 == if{ (&gt;K:XPNDR_1000_DEC) } (&gt;K:XPNDR_100_DEC)" presetId="db32e368-bbf9-462b-9263-ba0d6b734841" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(A:TRANSPONDER CODE:1, Number) 100 / int 10 % 7 == if{ (&gt;K:XPNDR_1000_INC) } (&gt;K:XPNDR_100_INC)" presetId="029bcbf0-a97f-4cfd-b07e-dc88a23a879b" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="7" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d4000637-dc08-4495-a2a4-64961578bdb6">
+      <active>true</active>
+      <description>HDG Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AUTOPILOT_HEADING_Dec)" presetId="c0530239-def6-40e9-b1de-8af2ab6e8ee8" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AUTOPILOT_HEADING_Inc)" presetId="99526055-49cf-4a25-acb0-d78c731856c1" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="100" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f55705cc-5523-4c36-aae6-98223d298088">
+      <active>true</active>
+      <description>BARO Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_BARO_PFD_Dec)" presetId="e19e7956-58db-4331-9c98-af402d40a2af" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_BARO_PFD_Inc)" presetId="95a38808-64f2-460e-b259-b46b2dedc6ff" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="101" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dcfff8b7-99b2-4474-957d-b480aca30f30">
+      <active>true</active>
+      <description>COM2 SWAP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="SWAP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:COM2_RADIO_SWAP)" presetId="b4d05ce0-0005-427a-b698-45c28cde0a18" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8ba2f377-18f2-438c-a06e-cc825e8c4c8b">
+      <active>true</active>
+      <description>BARO Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_BARO_PFD_Dec)" presetId="e19e7956-58db-4331-9c98-af402d40a2af" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_BARO_PFD_Inc)" presetId="95a38808-64f2-460e-b259-b46b2dedc6ff" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="101" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ce8ee84c-a8d5-4824-9caa-156180b6588b">
+      <active>true</active>
+      <description>AP Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="AP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=6,106,6)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e902a251-a535-4722-b55f-8c227b17abec">
+      <active>true</active>
+      <description>MENU Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="MENU" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:AS1000_MENU_PUSH_PFD_PUSH)" presetId="bbebff45-2eed-4220-8972-7ae7274afd78" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b061c78f-c408-4dd7-b39a-a1aab87b582b">
+      <active>true</active>
+      <description>CLR Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="CLR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:AS1000_CLR_PFD_PUSH)" presetId="139f1d5c-58fe-4a03-bd93-0b50096fda66" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a504a011-eac8-40ab-83ed-60aa8e271026">
+      <active>true</active>
+      <description>NAV1 SWAP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="SWAP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:NAV1_RADIO_SWAP)" presetId="72e5dd2a-4e9d-4d61-940a-e523202f8dd0" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="2" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1ff277c6-212e-437b-811c-9ae1594e3116">
+      <active>true</active>
+      <description>NAV2 SWAP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="SWAP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:NAV2_RADIO_SWAP)" presetId="63711aad-e826-4be2-8ee6-b8af7ba92dd8" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="3" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2a528a22-73c2-42c2-a3a6-e018f410d478">
+      <active>true</active>
+      <description>ENT Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="ENT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:AS1000_ENT_PUSH_PFD_PUSH)" presetId="f9a04ca9-1622-404f-bf29-4cc88fde0389" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="95111285-16ab-4a9a-bf3e-139ea5d74def">
+      <active>true</active>
+      <description>FMS1 Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_FMS_LOWER_PFD_Dec)" presetId="f76faf74-5a9a-42c3-86e5-72860864f8c1" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_FMS_LOWER_PFD_Inc)" presetId="f81d7cbb-2df5-4d69-9b46-be49830a97c9" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="4" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="98d8437c-62f2-489a-8925-d3a307d18fb4">
+      <active>true</active>
+      <description>XPDR Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="XPDR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=7,107,7)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46efdb9a-f583-4c85-8922-fad313613aa7">
+      <active>true</active>
+      <description>SHIFT MODE ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Encoder" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="$+100" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="&lt;" value="100" logic="or" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a2a35a65-7675-4d60-a0bd-47dfd6acffb8">
+      <active>true</active>
+      <description>AP MASTER</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="AP_MASTER" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_MASTER)" presetId="b17146c8-2db3-4239-b797-e7bc11d557da" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1a59c9c5-21e9-4790-9d4b-07fcda26236f">
+      <active>true</active>
+      <description>FMS1 Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="FMS1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=4,104,4)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8e6646e1-d9e3-4e4e-b9a2-7da872e2ec02">
+      <active>true</active>
+      <description>FMS2 Mode</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 2/ SN-90B-A20" name="FMS2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="MODE" varExpression="if($=5,105,5)" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="02413db4-936a-4f00-b9c1-417d646c74a4">
+      <active>true</active>
+      <description>DIR Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="DIRECT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:AS1000_DIRECTTO_PFD_PUSH)" presetId="23ca104e-9d3d-4fb1-9688-08e9a1fcc776" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a7e8967f-303a-4794-9c92-82a3b59d427a">
+      <active>true</active>
+      <description>HDG Toggle</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="HDG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_HDG_HOLD)" presetId="1e879ccb-96c9-401e-b447-940c7380a410" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6470c077-a3ae-415c-bc68-f09c25a1c919">
+      <active>true</active>
+      <description>APR Toggle</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="APR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_APR_HOLD)" presetId="de7fab05-76c5-4fc1-a86a-e32a31c5aff3" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="003107c3-f41b-417c-9428-ab2b548fa402">
+      <active>true</active>
+      <description>NAV Toggle</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="NAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_NAV1_HOLD)" presetId="83a61eaf-5315-445b-bc1e-bc76135cca76" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6810e153-66d1-48c4-82a6-75c9c6384916">
+      <active>true</active>
+      <description>NAV2 Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:NAV2_RADIO_WHOLE_DEC)" presetId="f777e5bf-89b0-4964-ab23-c11870a37d6e" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:NAV2_RADIO_WHOLE_INC)" presetId="ae7a3671-788b-48c9-b6d9-de10b2a624c7" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="3" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3a4812d5-647b-4932-aed0-0dde3ca07d09">
+      <active>true</active>
+      <description>ALT Toggle</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="ALT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_HOLD)" presetId="a946ee03-bd6d-4ed4-b1c2-72d26df93848" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2ba9b36b-b34f-4013-89d1-70f850f2daa8">
+      <active>true</active>
+      <description>VS Toggle</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="VS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_PANEL_VS_HOLD)" presetId="6a81e461-5a7b-4dbf-b0b2-7cacc179df42" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c0bbf80a-172d-4a2e-9bd2-0105fbd94d88">
+      <active>true</active>
+      <description>NAV1 Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:NAV1_RADIO_FRACT_DEC)" presetId="f92f319c-75e2-471e-845a-764540c65040" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:NAV1_RADIO_FRACT_INC)" presetId="91d424e5-4d6a-48a0-a435-153331c604b3" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="2" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4f0dfcbd-dfba-4725-aec3-e953ffd59abc">
+      <active>true</active>
+      <description>NAV2 Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:NAV2_RADIO_FRACT_DEC)" presetId="c9709caa-0465-4079-9291-703f5adb7451" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:NAV2_RADIO_FRACT_INC)" presetId="64b2ce51-c983-4ae8-8145-4a74c2fbf038" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="3" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="14ed408d-5878-4e92-baca-655dafffd4c4">
+      <active>true</active>
+      <description>FMS1 Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_FMS_UPPER_PFD_Dec)" presetId="e5b0e1fd-be62-4b63-b67d-60be49ae8387" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AS1000_FMS_UPPER_PFD_Inc)" presetId="5f3e2880-5b2b-490e-aa22-37316982f554" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="4" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="febc5836-407b-4dd5-bc8a-a091ca68c823">
+      <active>true</active>
+      <description>COM1 SWAP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 3/ SN-267-7D2" name="SWAP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:COM1_RADIO_SWAP)" presetId="584f3009-7de6-4d76-8814-3a4e61aaeb08" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bdf17f38-1b19-41dc-a34f-1f08050ddf40">
+      <active>true</active>
+      <description>HDG Sync</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Encoder" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onHold holdDelay="350" repeatDelay="0" type="MSFS2020CustomInputAction" command="(&gt;B:AS1000_HEADING_SYNC_PFD_PUSH)" presetId="f2417365-84dd-4473-83f7-fc5e8af67155" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="100" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bcb8a907-95eb-48be-ac9a-ba14cd7037e2">
+      <active>true</active>
+      <description>ALT Course</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Outer" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AUTOPILOT_ALTITUDE_1000_Dec)" presetId="1b91da93-4dc1-4750-88ae-b169a096c82b" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AUTOPILOT_ALTITUDE_1000_Inc)" presetId="233a00ac-05c9-4cc7-82bc-27ba2dc8f3a8" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="6" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="211f4776-e622-43ea-856b-c46972a178e6">
+      <active>true</active>
+      <description>ALT Fine</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Board 1/ SN-CC4-485" name="Inner" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:AUTOPILOT_ALTITUDE_100_Dec)" presetId="c3dbbc71-8e74-456e-b090-7475510032c7" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:AUTOPILOT_ALTITUDE_100_Inc)" presetId="44bcbcf3-3e07-435a-b8d8-4d21b41fa932" />
+          <onRightFast />
+        </encoder>
+        <preconditions>
+          <precondition type="variable" active="true" ref="MODE" operand="=" value="6" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

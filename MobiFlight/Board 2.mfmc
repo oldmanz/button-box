@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Nano</ModuleType>
+  <ModuleName>Board 2</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="COM2" Pin="2" />
+  <Button Name="COM1" Pin="3" />
+  <Button Name="NAV2" Pin="4" />
+  <Button Name="NAV1" Pin="5" />
+  <Button Name="FMS2" Pin="6" />
+  <Button Name="FMS1" Pin="7" />
+  <Button Name="XPDR" Pin="8" />
+  <Button Name="AP" Pin="9" />
+  <Output Name="COM2_LED" Pin="10" />
+  <Output Name="COM1_LED" Pin="11" />
+  <Output Name="NAV2_LED" Pin="12" />
+  <Output Name="NAV1_LED" Pin="13" />
+  <Output Name="FMS2_LED" Pin="14" />
+  <Output Name="FMS1_LED" Pin="15" />
+  <Output Name="XPDR_LED" Pin="16" />
+  <Output Name="AP_LED" Pin="17" />
+</Config>
